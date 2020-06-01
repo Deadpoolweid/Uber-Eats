@@ -79,6 +79,10 @@ footer ul li {
   margin-bottom: 23px;
 }
 
+nav {
+  width: 30%;
+}
+
 .logo {
   background: url(media/logo.svg) center no-repeat;
   background-size: 100%;
@@ -180,7 +184,9 @@ footer ul li {
 
 .site-info {
   display: flex;
+  justify-content: space-between;
   margin: 32px 0;
+  padding-bottom: 48px;
 }
 
 .block {
