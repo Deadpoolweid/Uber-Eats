@@ -11,6 +11,16 @@ header {
   float: left;
 }
 
+.login {
+  float: right;
+}
+
+.basket {
+  float: right;
+  background: url(media/basket.svg) center no-repeat;
+  background-size: 100%;
+}
+
 .takemeup {
   background: url(media/arrow.svg) center no-repeat;
   background-size: initial;
