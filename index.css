@@ -1,0 +1,5 @@
+.logo {
+  background: url(media/logo.svg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
