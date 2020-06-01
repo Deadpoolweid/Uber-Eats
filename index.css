@@ -6,7 +6,8 @@ body {
 }
 
 header,
-main {
+main,
+footer {
   padding: 0 7%;
 }
 
@@ -126,10 +127,21 @@ footer {
 }
 
 .logo-footer {
-  background: url(media/logo-white.svg) center no-repeat;
-  background-size: 100%;
+  background: url(media/logo-white.svg) left center no-repeat;
+  background-size: 20%;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  float: left;
+
+  padding: 58px 0;
+}
+
+.logo-footer,
+.site-info,
+.app-links {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.site-info {
+  display: flex;
 }
