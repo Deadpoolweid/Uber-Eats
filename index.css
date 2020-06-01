@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -234,4 +238,16 @@ nav {
 
 .eula > * {
   flex-basis: 32.5%;
+}
+
+.takemeup {
+  background: #59bd5a url(media/arrow.svg) center no-repeat;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  width: 80px;
+  height: 80px;
 }
