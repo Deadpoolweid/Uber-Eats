@@ -207,3 +207,13 @@ nav {
 .contacts .hashtag {
   margin: 33px 0 20px 0;
 }
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.app-links > * {
+  margin-right: 40px;
+}
