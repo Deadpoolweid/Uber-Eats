@@ -38,6 +38,10 @@ input[type="search"]::placeholder {
   font-size: 16px;
 }
 
+footer {
+  background-color: #262626;
+}
+
 .logo {
   background: url(media/logo.svg) center no-repeat;
   background-size: 100%;
@@ -119,4 +123,13 @@ input[type="search"]::placeholder {
 .takemeup {
   background: url(media/arrow.svg) center no-repeat;
   background-size: initial;
+}
+
+.logo-footer {
+  background: url(media/logo-white.svg) center no-repeat;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  float: left;
 }
