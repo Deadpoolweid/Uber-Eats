@@ -219,3 +219,11 @@ nav {
 .app-links > * {
   margin-right: 40px;
 }
+
+.eula {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 40px 0;
+}
