@@ -184,11 +184,15 @@ nav {
 
 .site-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   margin: 32px 0;
   padding-bottom: 48px;
   font-size: 13px;
   line-height: 15px;
+}
+
+.site-info > * {
+  flex-basis: 32.5%;
 }
 
 .block {
@@ -226,4 +230,8 @@ nav {
   font-size: 11px;
   line-height: 13px;
   padding: 40px 0;
+}
+
+.eula > * {
+  flex-basis: 32.5%;
 }
