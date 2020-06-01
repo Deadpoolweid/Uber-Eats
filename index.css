@@ -1,10 +1,14 @@
+header {
+  padding: 16px 7%;
+}
+
 .logo {
   background: url(media/logo.svg) center no-repeat;
-  background-size: cover;
+  background-size: 100%;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  width: 5%;
+  float: left;
 }
 
 .takemeup {
