@@ -3,3 +3,8 @@
   background-size: cover;
   width: 100%;
 }
+
+.takemeup {
+  background: url(media/arrow.svg) center no-repeat;
+  background-size: initial;
+}
