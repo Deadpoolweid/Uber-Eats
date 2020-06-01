@@ -2,6 +2,7 @@ body {
   background: #fff;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #1d1d1d;
+  font-size: 16px;
 }
 
 header,
@@ -65,6 +66,54 @@ input[type="search"]::placeholder {
   padding: 14px 20px;
   border: none;
   margin-left: 27px;
+}
+
+.restaurants {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.restaurant {
+  margin: 16px;
+  flex-basis: 30%;
+}
+
+.restaurant:hover,
+.restaurant:focus {
+  background: rgba(117, 117, 117, 0.04);
+}
+
+.restaurant:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.restaurant:nth-child(3n) {
+  margin-right: 0;
+}
+
+.restaurant-logo {
+  width: 100%;
+}
+
+.restaurant-name {
+  margin-top: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.restaurant-kitchen {
+  font-size: 14px;
+  color: #626262;
+  margin: 4px 0;
+  line-height: 21px;
+}
+
+.restaurant-time {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 20px;
 }
 
 .takemeup {
