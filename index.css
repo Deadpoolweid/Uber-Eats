@@ -29,6 +29,7 @@ h2 {
 
 footer {
   background-color: #262626;
+  color: white;
 }
 
 input[type="search"] {
@@ -64,6 +65,18 @@ select {
 select::-ms-expand {
   /* для IE */
   display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer ul li {
+  margin-bottom: 23px;
 }
 
 .logo {
