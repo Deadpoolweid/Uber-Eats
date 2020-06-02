@@ -300,4 +300,24 @@ nav {
 }
 
 @media (max-width: 320px) {
+  .logo {
+    background-size: 50%;
+  }
+
+  .basket {
+    display: none;
+  }
+
+  main {
+    padding-left: 8px;
+    padding-right: 4px;
+  }
+  .restaurants {
+    padding: 0;
+  }
+
+  .restaurant:nth-child(n) {
+    margin: 0;
+    flex-basis: 100%;
+  }
 }
