@@ -255,6 +255,7 @@ nav {
   bottom: 24px;
   width: 80px;
   height: 80px;
+  display: block;
 }
 
 @media (max-width: 768px) {
