@@ -314,6 +314,10 @@ footer ul li {
   .site-info > * {
     flex-basis: 100%;
   }
+
+  .restaurant:nth-child(n) {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 320px) {
@@ -335,14 +339,6 @@ footer ul li {
 
   .restaurant:nth-child(n) {
     margin: 0;
-    flex-basis: 100%;
-  }
-
-  .site-info {
-    flex-direction: column;
-  }
-
-  .site-info > * {
     flex-basis: 100%;
   }
 
