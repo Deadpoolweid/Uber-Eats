@@ -348,4 +348,18 @@ nav {
   .app-links > *:nth-child(1) {
     margin-right: 25px;
   }
+
+  .eula {
+    flex-flow: column;
+    padding: 40px 0;
+  }
+
+  .eula > * {
+    flex-basis: 100%;
+    margin-bottom: 24px;
+  }
+
+  .eula > *:last-child {
+    margin-bottom: 0;
+  }
 }
