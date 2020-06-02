@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  max-width: 100vw;
 }
 
 body {
@@ -51,13 +52,14 @@ select {
   background-color: #3b3b3b;
   border: none;
   border-radius: 2px;
-  padding: 12px 48px;
+  padding: 12px 0;
+  text-indent: 48px;
+  width: 100%;
   color: #fff;
   font-size: 13px;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  padding-right: 128px;
   box-shadow: none;
   -ms-user-select: none;
 }
@@ -80,18 +82,13 @@ footer ul li {
   margin-bottom: 23px;
 }
 
-nav {
-  width: 30%;
-}
-
 .logo {
   background: url(media/logo.svg) left center no-repeat;
-  background-size: 15%;
+  background-size: 120px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   flex-grow: 1;
-
   line-height: 3em;
 }
 
@@ -174,7 +171,7 @@ nav {
 
 .logo-footer {
   background: url(media/logo-white.svg) left center no-repeat;
-  background-size: 20%;
+  background-size: 190px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -259,6 +256,12 @@ nav {
   display: block;
 }
 
+@media (max-width: 1092px) {
+  .restaurant {
+    margin: 0;
+  }
+}
+
 @media (max-width: 768px) {
   header,
   main,
@@ -303,11 +306,17 @@ nav {
   }
 }
 
-@media (max-width: 320px) {
-  .logo {
-    background-size: 50%;
+@media (max-width: 415px) {
+  .site-info {
+    flex-direction: column;
   }
 
+  .site-info > * {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 320px) {
   .basket {
     display: none;
   }
@@ -329,16 +338,8 @@ nav {
     flex-basis: 100%;
   }
 
-  .logo-footer {
-    background-size: 50%;
-  }
-
   .site-info {
     flex-direction: column;
-  }
-
-  nav {
-    width: 100%;
   }
 
   .site-info > * {
