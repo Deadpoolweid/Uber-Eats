@@ -124,14 +124,14 @@ nav {
 
 .restaurants {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 80px;
 }
 
 .restaurant {
-  margin: 16px;
-  flex-basis: 30%;
+  margin: 8px;
+  flex-basis: 32.2%;
 }
 
 .restaurant:hover,
