@@ -197,7 +197,7 @@ nav {
 .site-info {
   display: flex;
   justify-content: space-between;
-  margin: 32px 0;
+  margin-top: 32px;
   padding-bottom: 48px;
   font-size: 13px;
   line-height: 15px;
@@ -274,6 +274,10 @@ nav {
     padding-bottom: 16px;
   }
 
+  .restaurants {
+    margin-bottom: 48px;
+  }
+
   .restaurants::after {
     content: "";
     flex-basis: 48%;
@@ -293,5 +297,10 @@ nav {
 
   .restaurant:nth-child(even) {
     margin-left: 8px;
+  }
+
+  .logo-footer {
+    padding-top: 56px;
+    padding-bottom: 40px;
   }
 }
