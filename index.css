@@ -127,10 +127,13 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 80px;
+  padding-top: 16px;
+  align-items: stretch;
 }
 
 .restaurant {
-  margin: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
   flex-basis: 32.2%;
 }
 
@@ -262,11 +265,33 @@ nav {
   header,
   main,
   footer {
-    padding: 0 8px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   header {
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+
+  .restaurants::after {
+    content: "";
+    flex-basis: 48%;
+    flex-grow: 1;
+    margin-left: 8px;
+  }
+
+  .restaurant:nth-child(n) {
+    margin: 0;
+    flex-basis: 48%;
+    flex-grow: 1;
+  }
+
+  .restaurant:nth-child(odd) {
+    margin-right: 8px;
+  }
+
+  .restaurant:nth-child(even) {
+    margin-left: 8px;
   }
 }
