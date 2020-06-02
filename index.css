@@ -22,12 +22,6 @@ header {
   align-items: center;
 }
 
-header::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 h2 {
   font-size: 22px;
   font-weight: 400;
@@ -303,4 +297,7 @@ nav {
     padding-top: 56px;
     padding-bottom: 40px;
   }
+}
+
+@media (max-width: 320px) {
 }
