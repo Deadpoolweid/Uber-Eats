@@ -216,6 +216,10 @@ nav {
   content: "#";
 }
 
+.contacts {
+  margin-bottom: 42px;
+}
+
 .contacts .hashtag {
   margin: 33px 0 20px 0;
 }
@@ -226,7 +230,7 @@ nav {
   padding: 40px 0;
 }
 
-.app-links > * {
+.app-links > *:nth-child(1) {
   margin-right: 40px;
 }
 
@@ -312,6 +316,10 @@ nav {
     padding-left: 8px;
     padding-right: 4px;
   }
+
+  footer {
+    padding: 0 8px;
+  }
   .restaurants {
     padding: 0;
   }
@@ -319,5 +327,25 @@ nav {
   .restaurant:nth-child(n) {
     margin: 0;
     flex-basis: 100%;
+  }
+
+  .logo-footer {
+    background-size: 50%;
+  }
+
+  .site-info {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .site-info > * {
+    flex-basis: 100%;
+  }
+
+  .app-links > *:nth-child(1) {
+    margin-right: 25px;
   }
 }
