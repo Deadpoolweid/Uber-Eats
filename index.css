@@ -193,7 +193,7 @@ nav {
 
 .site-info {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   margin: 32px 0;
   padding-bottom: 48px;
   font-size: 13px;
@@ -201,7 +201,7 @@ nav {
 }
 
 .site-info > * {
-  flex-basis: 32.5%;
+  flex-basis: 32.2%;
 }
 
 .block {
